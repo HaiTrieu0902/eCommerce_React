@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.1116ef12.css",
-    "main.js": "./static/js/main.5cbc9604.js",
+    "main.js": "./static/js/main.dabb30ad.js",
     "static/js/787.72f94a41.chunk.js": "./static/js/787.72f94a41.chunk.js",
     "static/media/iPhone 12 (Product Red).png": "./static/media/iPhone 12 (Product Red).b200b00a41fa0f1eecbe.png",
     "static/media/MacBook.jpg": "./static/media/MacBook.6f3bea584899cca8ec6c.jpg",
@@ -33,11 +33,11 @@
     "static/media/gr2.svg": "./static/media/gr2.19b02679192d97b6a02011e413a93a65.svg",
     "static/media/cross.svg": "./static/media/cross.bf9c2c127cb9cecabfe621ba624f3814.svg",
     "main.1116ef12.css.map": "./static/css/main.1116ef12.css.map",
-    "main.5cbc9604.js.map": "./static/js/main.5cbc9604.js.map",
+    "main.dabb30ad.js.map": "./static/js/main.dabb30ad.js.map",
     "787.72f94a41.chunk.js.map": "./static/js/787.72f94a41.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1116ef12.css",
-    "static/js/main.5cbc9604.js"
+    "static/js/main.dabb30ad.js"
   ]
 }
