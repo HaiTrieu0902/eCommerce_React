@@ -1,0 +1,137 @@
+.header-logo {
+    width: 100%;
+}
+
+.header-logo a {
+    width: 100%;
+}
+
+.header-logo img {
+    width: 50%;
+}
+
+.header-input input {
+    border-radius: 1rem;
+    padding: 0.35rem 1rem;
+    font-size: 1.3rem;
+}
+
+.header-input {
+    margin-left: -6rem;
+}
+
+.header-input .input-group-text {
+    width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    background-color: var(--color-232f3e);
+    border-top-right-radius: 0.75rem;
+    border-bottom-right-radius: 0.75rem;
+}
+.header-menu {
+    margin-left: 6rem;
+}
+.header-upper-links img,
+.header-upper-links p {
+    color: var(--color-232f3e);
+    font-weight: 500;
+}
+
+.header-icon {
+    font-size: 1.8rem;
+    color: var(--color-232f3e);
+}
+
+.header-icon-cart {
+    font-size: 2.4rem;
+    color: var(--color-232f3e);
+}
+
+.special-product-content .brand {
+    font-size: 1.6rem;
+    color: var(--color-232f3e);
+}
+.special-product-content .title {
+    font-size: 1.3rem;
+    color: var(--color-777777);
+}
+.special-product-content .price {
+    font-size: 1.4rem;
+    color: var(--color-232f3e);
+}
+.trike {
+    margin-left: 0.475rem;
+}
+.menu-navbar-btn span {
+    display: none;
+    background-color: var(--color-131921);
+    width: 25px;
+    height: 2px;
+    transition: all 0.5s;
+    margin-top: 3.5px;
+    margin-left: 2rem;
+}
+/*  */
+@media (min-width: 768px) and (max-width: 979px) {
+    .header-upper-links {
+        display: none !important;
+    }
+
+    .header-input {
+        margin-left: -2rem;
+    }
+    .header-menu {
+        margin-left: 2rem;
+    }
+    .menu-navbar-btn span {
+        display: block;
+    }
+    .col-md-0 {
+        display: none;
+    }
+    .services {
+        flex-wrap: wrap;
+    }
+    .services-item:nth-child(4) {
+        display: none !important;
+    }
+    .services-item:nth-child(5) {
+        display: none !important;
+    }
+    .product-card-contain {
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .header-upper-links {
+        display: none !important;
+    }
+
+    .header-input {
+        margin-left: 0rem;
+    }
+    .header-menu {
+        margin-left: 0rem;
+    }
+    .menu-navbar-btn span {
+        display: block;
+    }
+    .col-md-0 {
+        display: none;
+    }
+    .services {
+        flex-wrap: wrap;
+    }
+    .services-item:nth-child(4) {
+        display: none !important;
+    }
+    .services-item:nth-child(5) {
+        display: none !important;
+    }
+    .product-card-contain {
+        margin-top: 1rem;
+    }
+}
